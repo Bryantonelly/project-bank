@@ -18,9 +18,9 @@ public class Customer {
     private String documentNumber; 
 //    private CustomerType customerType;
 
-    public enum CustomerType {
-        PERSONAL, 
-        BUSINESS
-    }
+//    public enum CustomerType {
+//        PERSONAL, 
+//        BUSINESS
+//    }
 }
 
