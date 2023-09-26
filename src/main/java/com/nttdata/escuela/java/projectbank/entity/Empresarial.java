@@ -10,10 +10,10 @@ import lombok.Setter;
 
 @Entity
 @Getter @Setter
-public class Empresarial extends Customer {
+public class Empresarial {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int empresarialId; 
+	private int customerId; 
     private String businessName; 
     private String accountHolder; 
 

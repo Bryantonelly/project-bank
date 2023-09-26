@@ -13,7 +13,7 @@ import lombok.Setter;
 public class Business extends Customer{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int personalId; 
+	private int customerId; 
 	private String firstName; 
     private String lastName; 
     private String middleName; 
