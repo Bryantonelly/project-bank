@@ -10,7 +10,7 @@ import lombok.Setter;
 
 @Entity
 @Getter @Setter
-public class Empresarial {
+public class Empresarial extends Customer {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int customerId; 

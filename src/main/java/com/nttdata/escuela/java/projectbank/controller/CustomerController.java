@@ -17,7 +17,7 @@ import com.nttdata.escuela.java.projectbank.service.CustomerService;
 
 
 @RestController
-@RequestMapping("/api/customers")
+@RequestMapping("/customers")
 public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
